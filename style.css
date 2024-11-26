@@ -1,0 +1,73 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #4facfe, #00f2fe);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  /* Weather app container */
+  .weather-app {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Title styling */
+  .app-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Search box styling */
+  .search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-box input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-box button {
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-box button:hover {
+    background-color: #ff5733;
+  }
+  
+  /* Weather info section */
+  .weather-info p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .weather-info span {
+    font-weight: bold;
+  }
+  
